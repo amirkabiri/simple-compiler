@@ -4,7 +4,7 @@ I was studying for the "compiler design and principles" exam and I was bored fro
 here you are, you can use this repository as you want.
 
 # How to run?
-just cone this and open index.html file, then open javascript console in browser and user calculator function like this:
+just clone this and open index.html file, then open javascript console in browser and use calculator function like this:
 ```calculator('2 + 5 *  (2 + 0)')```
 
 # Environment
