@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+<body>
+  <h1>Open console and user calculator function</h1>
+  <p>supported operators: + - / *</p>
+  example:
+  <code>calculator(' 2 +    5 * (2 +        1)')</code>
+
+  <script src="scanner.js"></script>
+  <script src="parser.js"></script>
+  <script src="solver.js"></script>
+  <script>
+    function calculator(input){
+      try{
+        const tokens = scanner(input)
+        const ast = parser(tokens)
+        const result = solver(ast)
+        return result
+      }catch (e){
+        return NaN
+      }
+    }
+  </script>
+</body>
+</html>
