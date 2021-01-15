@@ -10,3 +10,6 @@ just cone this and open index.html file, then open javascript console in browser
 # Environment
 you can run this project easily on the browser, it also can run on node.js, but need a few changes. for example, you must export functions inside of scanner.js, parser.js, solver.js.
 then import those in a new js file and do like what I have done in index.html
+
+# Demo
+[Check out the online demo on GitHub pages](https://amirkabiri.github.io/simple-compiler/)
